@@ -1,0 +1,18 @@
+# Arquivos de build e dependências do Dart
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.iml
+
+# Configuração local com credenciais do banco (nunca commitar)
+lib/database/database_config.local.dart
+.env
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

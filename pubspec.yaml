@@ -1,0 +1,23 @@
+# pubspec.yaml
+#
+# Manifesto do projeto Dart. Declara o nome do pacote, a versão do SDK Dart
+# exigida e as dependências externas.
+#
+# Dependências previstas (ainda não fixadas em versão — decidir ao iniciar
+# a implementação):
+#   - mysql1 (ou mysql_client): driver de conexão com o MySQL, usado
+#     exclusivamente pela camada lib/database/ e pelos repositories.
+#   - Nenhum framework de UI é necessário: o projeto é uma aplicação de
+#     linha de comando (CLI) pura, sem Flutter.
+#
+# Dependências de desenvolvimento previstas:
+#   - lints (ou similar): regras de lint padrão do Dart para manter
+#     consistência de estilo entre os quatro integrantes da equipe.
+#   - test: para eventuais testes unitários dos services (regras de
+#     negócio), que são a camada mais importante de testar.
+#
+# name: estoque_cli
+# description: Protótipo acadêmico de sistema de controle de estoque (CLI em Dart + MySQL)
+# version: 0.1.0
+# environment:
+#   sdk: '>=3.0.0 <4.0.0'
